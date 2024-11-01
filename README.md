@@ -19,17 +19,24 @@ The backend is built using [NestJS](https://nestjs.com/).
 
 ### Installation
 
-1. Navigate to the backend directory:
+1. Clone the backend repository:
+  ```sh
+   git clone https://github.com/verezeeee/backend.git
+  ```
+
+2. Navigate to the backend directory:
 
    ```sh
    cd backend
 
    ```
 
-2. Install the dependencies:
+3. Install the dependencies:
 
-````sh
-npm install
+  ```sh
+  npm install
+
+  ```
 
 ### Running the application
 
@@ -37,7 +44,7 @@ npm install
 
 ```sh
 npm run start:dev
-
+```
 2. The backend server will be running at http://localhost:3000.
 
 ## Frontend
@@ -46,18 +53,18 @@ npm run start:dev
 
  ```sh
  cd front-end
-
+ ```
 2. Install the dependencies:
 
 ```sh
 npm install
-
+```
 ### Running the application
 
 1. Start the development server:
 
 ```sh
 npm run dev
-
+```
 2. The frontend server will be running at http://localhost:3001.
 ````
